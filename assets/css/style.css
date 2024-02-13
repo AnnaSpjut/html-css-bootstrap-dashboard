@@ -1,0 +1,30 @@
+/* debug */
+header,
+.navbar,
+.sidebar{
+  border: 1px solid black;
+  background-color: aqua;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+header{
+  height: 50px;
+}
+
+.logo,
+.nav-icons{
+  width: 10%;
+}
+
+.sidebar{
+  width: 120px;
+  min-height: 100%;
+}
+
+.main-content{
+  min-width: calc(100%-120px)
+}
